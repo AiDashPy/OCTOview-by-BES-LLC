@@ -11,12 +11,12 @@
   import OptionSection from './components/OptionSection.vue';
   import SettingsDisplay from './components/SettingsDisplay.vue';
 
-  var eventCount = 0;
+  let eventCount = 0;
 </script>
 
 <script>
-  var curId = "OCTOviewCamera";
-  var curDevice = "OCTOview";
+  let curId = "OCTOviewCamera";
+  let curDevice = "OCTOview";
 
   function showStuff(id) {
     console.log(curId,id);
